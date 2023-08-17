@@ -4,9 +4,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <title>Simple Tailwind Starter</title>
+  <title>Filter Search Modal</title>
 </head>
 <body>
-  <h1 class="text-3xl ">Simple Tailwind Starter</h1>
+  <!-- Global Container -->
+  <div class="flex items-center justify-center min-h-screen bg-orange-50">
+    <!-- Card Container -->
+    <div class="bg-white shadow-2xl p-6 md:p-20 rounded-2xl">
+      <!-- Top Section -->
+      <h2 class="text-3xl font-semibold font-serif mb-6">
+        Search for a rental car
+      </h2>
+      <!-- Search input and radio -->
+      <div class="flex flex-col space-y-3 text-left">
+        <p class="text-sm">Pick up location</p>
+        <input type="text" class="w-full p-2 border border-gray-300 rounded-lg placeholder:font-sm placeholder:text-thin" placeholder="City, airport, region, district..">
+        <!-- Checbox Button -->
+        <div class="flex items-center">
+          <input type="checkbox" name="option1" id="option1" class="mr-2 w-4 checked:bg-[#0D1C52]">
+          <label for="option1">Deliver the car somewhere else</label>
+        </div>
+      </div>
+
+    </div>
+  </div>
 </body>
 </html>
