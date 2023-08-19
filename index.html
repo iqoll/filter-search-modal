@@ -27,7 +27,7 @@
       </div>
 
       <!-- Middle Section -->
-      <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-3">
+      <div class="flex flex-col space-y-3 md:flex-row md:space-y-0 md:space-x-3 mb-4">
         <!-- Pickup Section -->
         <div class="flex flex-col space-y-3 md:w-1/2">
           <p class="text-sm">Date of pickup</p>
@@ -59,7 +59,66 @@
             </div>
           </div>
         </div>
+
         <!-- Delivery Section -->
+        <div class="flex flex-col space-y-3 md:w-1/2">
+          <p class="text-sm">Date of delivery</p>
+          <!-- Top Part -->
+          <div class="flex justify-between p-3 border border-gray-300 rounded-lg">
+            <div class="flex items-center">
+              <img src="images/calendar.png" alt="" class="w-6 mr-3">
+              <p class="font-semibold text-sm">Tue 29 Mar 2022</p>
+            </div>
+            <button>
+              <img src="images/down-arrow.png" alt="">
+            </button>
+          </div>
+          <!-- Bottom Part -->
+          <div class="flex space-x-0 w-full">
+            <div class="flex justify-between items-center border border-gray-300 p-2 w-1/2">
+              <img src="images/calendar.png" alt="" class="w-6">
+              <p class="text-sm mx-3">10</p>
+              <button>
+                <img src="images/down-arrow.png" alt="">
+              </button>
+            </div>
+            <div class="flex justify-between items-center border border-gray-300 p-2 w-1/2">
+              <img src="images/calendar.png" alt="" class="w-6">
+              <p class="text-sm mx-3">00</p>
+              <button>
+                <img src="images/down-arrow.png" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Bottom Section -->
+      <div class="flex flex-col space-y-3">
+        <!-- More Info Section -->
+        <div class="flex items-center">
+          <input type="checkbox" name="option2" id="option2" class="w-4 mr-2">
+          <label for="option2" class="mr-2">The driver's age is between 30 and 65?</label>
+          <img src="images/info.png" alt="" class="w-6">
+        </div>
+        <!-- Features List -->
+        <div class="flex flex-col space-y-1">
+          <!-- Item 1 -->
+          <div class="flex justify-start">
+            <img src="images/Frame.svg" alt="">
+            <span class="ml-1 text-sm text-bold">No credit card fees</span>
+          </div>
+          <!-- Item 2 -->
+          <div class="flex justify-start">
+            <img src="images/Frame.svg" alt="">
+            <span class="ml-1 text-sm text-bold">No change fees</span>
+          </div>
+          <!-- Item 3 -->
+          <div class="flex justify-start">
+            <img src="images/Frame.svg" alt="">
+            <span class="ml-1 text-sm text-bold">Price match guarantee</span>
+          </div>
+        </div>
       </div>
     </div>
   </div>
